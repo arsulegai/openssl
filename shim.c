@@ -622,8 +622,16 @@ const EVP_MD *X_EVP_sha256() {
 	return EVP_sha256();
 }
 
+const EVP_MD *X_EVP_sha3_256() {
+        return EVP_sha3_256();
+}
+
 const EVP_MD *X_EVP_sha384() {
 	return EVP_sha384();
+}
+
+const EVP_MD *X_EVP_sha3_384() {
+        return EVP_sha3_384();
 }
 
 const EVP_MD *X_EVP_sha512() {
